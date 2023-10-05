@@ -4,24 +4,33 @@
     border: 0;
     font-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #eff6c1;
+    background-color: #ffffff;
 }
 
 h1 {
     font-size: 2.5em;
     text-align: center;
-    color: #000;
-    background: yellow;
+    color: #fefefe;
+    background: #4c95f3;
+    padding: 5px;
 }
 
 li {
-    padding: 5px
+    padding: 5px;
+    display: block;
+    margin: 15px;
+}
+
+.index-li {
+    display: inline-block;
 }
 
 li > a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     font-weight: bold;
+    background: #4c95f3;
+    padding: 10px;
 }
 
 body > ul {
@@ -52,6 +61,7 @@ h2 {
     margin-top: 10px;
     font-size: 30px;
     padding-left: 10px;
-    background-color: #000;
-    color: yellow;
+    background-color: #4c95f3;
+    color: #ffffff;
+    padding: 5px;
 }
